@@ -3,19 +3,19 @@ body{
 }
 
 p{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'plus jakarta sans', sans-serif;
   font-weight: 100;
   font-size: 16px;
   margin-bottom: 40px;
-  color: white;
+  color: black;
 }
 
 h3{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Muro slant', sans-serif;
   font-weight: 100;
   font-size: 30px;
   margin-bottom: 10px;
-  color: white;
+  color: #E84B4A;
 }
 
 h4{
@@ -23,7 +23,7 @@ h4{
   font-weight: 100;
   font-size: 20px;
   margin-bottom: 10px;
-  color: white;
+  color: darkgrey;
 }
 
 #top{
@@ -31,7 +31,7 @@ h4{
 }
 
 #wrapper{
-  background-color: #383838;
+  background-color: white;
   width: 60%;
   margin: auto;
   margin-top: 100px;
@@ -40,7 +40,7 @@ h4{
 }
 
 #landing{
-  background-color: #383838;
+  background-color: white;
   display: flex;
   flex-direction: column;
   padding: 50px 50px 50px 50px;
@@ -49,10 +49,48 @@ h4{
 
 #landing img{
   max-width: 300px;
+  align-self: center;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  float: left;
+  border-right:1px solid lightgrey;
+  border-top:1px solid lightgrey;
+  flex: 1;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'plus jakarta sans', sans-serif;
+  font-weight: bold;
+}
+
+li a:hover:not(.active) {
+  background-color: #E84B4A;
+  color: white;
+}
+
+
 #numbers{
-  background-color: #383838;
+  background-color: white;
   display: flex;
   flex-direction: column;
   padding: 50px 50px 50px 50px;
@@ -63,12 +101,11 @@ h4{
 
 #numbers button{
   align-self: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  background-color: #89B940;
+  font-family: 'plus jakarta sans', sans-serif;
+  font-weight: bold;
+  background-color: #0071E3;
   border: 1px solid;
-  border-color: #89B940;
-  border-radius: 25px;
+  border-color: #0071E3;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -81,7 +118,7 @@ h4{
 background-color: white;
 color: #383838;
 border: 1px solid;
-border-color: white;
+border-color: #0071E3;
 }
 
 #events{
@@ -102,32 +139,36 @@ border-color: white;
   max-width: 300px;
 }
 
+.dashed-full {
+    height: 4px;
+    width: 100%;
+    background-color: #E84B4A;
+    border: none;
+}
+
 .dashed-1 {
-  height: 1px;
-  width: 50%;
-  background-image: linear-gradient(90deg, transparent, transparent 50%, #383838 50%, #383838 100%), linear-gradient(90deg, #89B940, #89B940 );
-  background-size: 20px 1px, 50% 1px;
+  height: 4px;
+  width: 70%;
+  background-color: #E84B4A;
   border: none;
 }
 
 .dashed-2 {
-  height: 1px;
-  width: 50%;
-  background-image: linear-gradient(90deg, transparent, transparent 50%, #383838 50%, #383838 100%), linear-gradient(90deg, #89B940, #89B940 );
-  background-size: 20px 1px, 50% 1px;
+  height: 4px;
+  width: 70%;
+  background-color: #E84B4A;
   border: none;
-  margin-left: 50%
+  margin-left: 30%
 }
 
 #events button{
   align-self: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  background-color: #89B940;
+  font-family: 'plus jakarta sans', sans-serif;
+  font-weight: bold;
+  background-color: #0071E3;
   border: none;
   border: 1px solid;
-  border-color: #89B940;
-  border-radius: 25px;
+  border-color: #0071E3;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -158,7 +199,7 @@ border-color: white;
   background-color: white;
   color: #383838;
   border: 1px solid;
-  border-color: #89B940;
+  border-color: #0071E3;
 }
 
 .nl button:hover{
@@ -213,7 +254,7 @@ button:hover {
 }
 
 #bottom{
-  background-color: #242424;
+  background-color: #0071E3;
   border-radius: 0 0 20px 20px;
   text-align: center;
   color: white;
@@ -225,13 +266,17 @@ button:hover {
   color: white;
 }
 
+#bottom p{
+  color: white;
+}
+
 #contact p{
-  color: #89B940;
+  color: white;
 }
 
 #contact a{
   text-decoration: underline;
-  color: #89B940;
+  color: white;
 }
 
 @media only screen and (min-width: 1200px){
@@ -245,7 +290,7 @@ button:hover {
 @media only screen and (min-width: 850px){
 
   h3{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'muro slant', sans-serif;
     font-weight: 100;
     font-size: 70px;
     margin-bottom: 10px;
@@ -272,7 +317,7 @@ button:hover {
 
 
   #landing{
-    background-color: #383838;
+    background-color: white;
     display: flex;
     flex-direction: column;
     padding: 70px 70px 70px 70px;
