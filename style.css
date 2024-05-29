@@ -257,7 +257,7 @@ button:hover {
 @media only screen and (min-width: 850px){
 
   h3{
-    font-family: 'muro slant', sans-serif;
+    font-family: MuroSlant;
     font-weight: 100;
     font-size: 70px;
     margin-bottom: 10px;
