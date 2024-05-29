@@ -99,7 +99,7 @@ li a:hover:not(.active) {
 }
 
 
-#numbers{
+#kuno{
   background-color: #fcfcfc;
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@ li a:hover:not(.active) {
   text-align: left;
 }
 
-#numbers button{
+#kuno button{
   align-self: center;
   font-family: 'plus jakarta sans', sans-serif;
   font-weight: bold;
@@ -124,7 +124,7 @@ li a:hover:not(.active) {
   font-size: 16px;
 }
 
-#numbers button:hover{
+#kuno button:hover{
 background-color: white;
 color: #383838;
 border: 1px solid;
