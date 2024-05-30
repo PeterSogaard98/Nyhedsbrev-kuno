@@ -4,7 +4,7 @@ body{
 
 @font-face {
   font-family: MuroSlant;
-  src: url(Fonts/muro/Muroslant.otf);
+  src: url('Fonts/muro/Muroslant.otf');
 }
 
 p{
