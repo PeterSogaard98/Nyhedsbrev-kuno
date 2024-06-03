@@ -4,11 +4,16 @@ body{
 
 @font-face {
   font-family: MuroSlant;
-  src: url('Fonts/muro/Muroslant.otf');
+  src: url('fonts/muro/muroslant.otf');
+}
+
+@font-face {
+  font-family: PlusJakarta;
+  src: url('fonts/plus_jakarta_sans/plusjakarta.ttf');
 }
 
 p{
-  font-family: 'plus jakarta sans', sans-serif;
+  font-family: PlusJakarta;
   font-weight: 100;
   font-size: 16px;
   margin-bottom: 40px;
@@ -94,7 +99,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'plus jakarta sans', sans-serif;
+  font-family: PlusJakarta;
   font-weight: bold;
 }
 
@@ -116,7 +121,7 @@ li a:hover:not(.active) {
 
 #kuno button{
   align-self: center;
-  font-family: 'plus jakarta sans', sans-serif;
+  font-family: PlusJakarta;
   font-weight: bold;
   background-color: #0071E3;
   border: 1px solid;
