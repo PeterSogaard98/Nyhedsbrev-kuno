@@ -4,12 +4,12 @@ body{
 
 @font-face {
   font-family: MuroSlant;
-  src: url('fonts/muro/muroslant.otf');
+  src: url('fonts/muro/Muroslant.otf');
 }
 
 @font-face {
   font-family: PlusJakarta;
-  src: url('fonts/plus_jakarta_sans/plusjakarta.ttf');
+  src: url('fonts/plus_jakarta_sans/Plusjakarta.ttf');
 }
 
 p{
